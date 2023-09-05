@@ -1,0 +1,234 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title%}Mobile{% endblock title %}
+{% block main-content %}
+
+<div class="container-fluid" style="background: white; padding: 2rem;">
+
+  <div class="m-3">
+    <h3 class="fw-bold text-danger">ALL FASHION ITEMS </h3>
+  </div>
+       
+  <div class="col-sm-12 pb-3">
+    <div class="row">
+      <div class="m-3">
+        <h3 class="fw-bold ">ENJOY EXTRA SAVINGS ON TOP WEARS </h3>
+      </div>
+      {% comment %} {% for Product in mobiles %} {% endcomment %}
+      <div class="col-sm-3 mb-5">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+          <div class="card-body">
+            <h6 class="fw-bold card-text text-truncate">title</h6>
+            <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+            <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 mb-3">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+          <div class="card-body">
+              <h6 class="fw-bold card-text text-truncate">title</h6>
+              <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+              <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 mb-3">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+          <div class="card-body">
+              <h6 class="fw-bold card-text text-truncate">title</h6>
+              <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+              <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-sm-3 mb-3">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+          <div class="card-body">
+              <h6 class="fw-bold card-text text-truncate">title</h6>
+              <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+              <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3 mb-3">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+          <div class="card-body">
+              <h6 class="fw-bold card-text text-truncate">title</h6>
+              <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+              <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+      {% comment %} {% endfor %} {% endcomment %}
+    </div>
+  </div>
+</div>
+
+
+<!-- Slider 1 -->
+
+<div class="container-fluid" style="padding: 2rem; background: #CCFFFF;">
+  <div class="row">
+    <div class="m-3">
+      <h3 class="fw-bold "> BRAND WATCHES AT BEST DISCOUNT </h3>
+    </div>
+  
+    <div class="owl-carousel" id="slider1">
+      <div class="col-mb-4">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="150px" class="card-img-top"></a>
+          <div class="card-body">
+            <h6 class="fw-bold card-text text-truncate">title</h6>
+            <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+            <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Slider 1 -->
+
+
+
+
+<div class="container-fluid pt-5" style="background: white; padding: 2rem;">
+  <div class="row">
+    <div class="m-3">
+      <h3 class="fw-bold ">CHECKOUT BRAND NEW BOTTOM WEARS </h3>
+    </div>
+    {% comment %} {% for Product in mobiles %} {% endcomment %}
+    <div class="col-sm-3 mb-5">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/bt2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mb-3">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mb-3">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mb-3">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mb-3">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-3 mb-3">
+      <div class="card shadow">
+        <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="350px" class="card-img-top"></a>
+        <div class="card-body">
+          <h6 class="fw-bold card-text text-truncate">title</h6>
+          <p class="card-text text-truncate">title</p>
+        </div>
+        <div class="card-footer">
+          <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+        </div>
+      </div>
+    </div>
+    {% comment %} {% endfor %} {% endcomment %}
+  </div>
+</div>
+
+
+<!-- Slider 2-->
+
+<div class="container-fluid" style="padding: 2rem; background: #CCFFFF;">
+  <div class="row">
+    <div class="m-3">
+      <h3 class="fw-bold "> SHOES FOR MEN AND WOMEN </h3>
+    </div>
+  
+    <div class="owl-carousel" id="slider1">
+      <div class="col-mb-4">
+        <div class="card shadow">
+          <a href="#" class="btn"><img src="{% static 'images/tp2.jpg' %}" alt="{{Product.title}}" height="150px" class="card-img-top"></a>
+          <div class="card-body">
+            <h6 class="fw-bold card-text text-truncate">title</h6>
+            <p class="card-text text-truncate">title</p>
+          </div>
+          <div class="card-footer">
+            <small class="fw-bold text-decoration-line-through">Rs. selling_price</small><br><span class="fs-5 fw-bold">Rs. discounted_price</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--End Slider 2 -->
+
+
+{% endblock main-content %}
